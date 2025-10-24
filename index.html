@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuraFit: AI Health Quest</title>
+    <!-- Use es-module-shims to enable import maps in all modern browsers -->
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "@google/genai": "https://esm.sh/@google/genai@0.14.0",
+    "react-toastify": "https://esm.sh/react-toastify@10.0.5",
+    "recharts": "https://esm.sh/recharts@2.12.7",
+    "canvas-confetti": "https://esm.sh/canvas-confetti@1.9.3",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Stylesheet for React Toastify -->
+    <link rel="stylesheet" href="https://esm.sh/react-toastify@10.0.5/dist/ReactToastify.css">
+    <!-- Link to the main CSS file for custom styles -->
+    <link rel="stylesheet" href="App.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Load the main React application -->
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>

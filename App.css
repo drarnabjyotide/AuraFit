@@ -1,0 +1,11 @@
+body {
+    background-color: #0d1117;
+    background-image: radial-gradient(circle at 1px 1px, #1a202c 1px, transparent 0);
+    background-size: 20px 20px;
+}
+
+.card-glow:hover {
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.3), 0 0 5px rgba(52, 211, 153, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+}
